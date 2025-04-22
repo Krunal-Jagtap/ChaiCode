@@ -46,9 +46,8 @@ nav {
   padding: 0 0.5vw;
 }
 
-.nav-login-btn button {
+button {
   padding: 0.8rem 2rem;
-  width: 8vw;
   font-size: 1em;
   font-weight: 500;
   cursor: pointer;
@@ -61,7 +60,11 @@ nav {
   -o-border-radius: 10px;
 }
 
-.nav-login-btn button:hover {
+.nav-btn {
+  width: 8vw;
+}
+
+button:hover {
   background-color: #de7214;
   transition: 0.3s all linear;
   -webkit-transition: 0.3s all linear;
@@ -179,3 +182,46 @@ nav {
 }
 
 /* Live COHORT Section End */
+
+/* Tweet Section Start */
+.Tweet-Section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 15vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.Tweet-Section p {
+  font-size: 1.2em;
+}
+.Tweet-Section h4 {
+  font-size: 4.5em;
+  margin-block: 1rem 2rem;
+  text-decoration: underline #fe8216;
+}
+
+.Tweet-User-Section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 80%;
+  margin-block: 1rem 3rem;
+}
+.Tweet-Section .Tweet-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: 40vh;
+  border: 2px solid #de7214;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/* Tweet Section End */
