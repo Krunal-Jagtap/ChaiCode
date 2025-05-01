@@ -225,3 +225,29 @@ button:hover {
 }
 
 /* Tweet Section End */
+
+/* Placement Section Start */
+.Placement-Section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Placement-Section h5,
+p {
+  font-size: 2.2em;
+}
+.Placement-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 1rem;
+}
+
+.Placement-images img {
+  width: 20%;
+}
+/* Placement Section End */
